@@ -607,10 +607,10 @@ button:hover {
    
 } 
  .recipe_item:nth-child(1) .coeur svg{
- fill: rgba(255, 0, 0, 0.633);
+ fill: rgba(166, 255, 0, 0.633);
 }
  .recipe_item:nth-child(5) .coeur svg{
- fill: rgba(255, 0, 0, 0.633);
+ fill: rgba(255, 0, 0, 0.973);
 }
  .recipe_item:nth-child(8) .coeur svg{
  fill: rgba(255, 0, 0, 0.633);
@@ -802,7 +802,8 @@ button:hover {
    
     /* height: 90vh; */
     margin-top: 100px;
-    background:linear-gradient(to bottom ,rgb(255, 255, 255),var(--blue));
+    background:linear-gradient(to bottom ,rgba(255, 255, 255, 0.836),var(--blue));
+    
 }
 
 .insta_texte {
@@ -829,11 +830,12 @@ button:hover {
 
 
 .insta_item {
-    background-color: white;
+    background-color:#e7fefb;
     padding: 0;
-    width: 23%;
-    margin: 12px;
+    width:23%;
+    margin: 10px;
     position: relative;
+   
   
 }
 
@@ -851,7 +853,7 @@ button:hover {
     display: flex;
     align-items: center;
     gap: 15px;
-    width: 70%;
+    width: 40%;
 }
 
 .insta_top_left .insta_profil {
@@ -883,7 +885,7 @@ button:hover {
 }
 
 .insta_top_left img {
-    width: 15%;
+    width:17%;
     object-fit: cover;
 }
 
@@ -1049,7 +1051,7 @@ button:hover {
     position: absolute;
     display: none;
     height: 0%;
-    width: 100%;
+    width: 90%;
     background-color:white;
     bottom: 0;
     left: 0;
@@ -1059,7 +1061,7 @@ button:hover {
 
 .bloc_parametre.active{
     display: block;
-    height: 80%; 
+    height: 85%; 
   
     
 
@@ -1155,7 +1157,7 @@ button:hover {
 
 }
 .p_content_item .left p span {
-   color: #0091ff;
+   color: #00ff2a;
 
 }
  .p_content_item .left svg {
@@ -1176,7 +1178,7 @@ button:hover {
 }
 
 .p_content .red  {
-    color: red;
+    color: rgb(255, 38, 0);
 }
 
 .p_content_item svg {
@@ -1272,11 +1274,11 @@ button:hover {
 
 
 .delicious_content .row .row:nth-child(1) .item:nth-child(1) .coeur svg{
-    fill: rgba(255, 0, 0, 0.633);
+    fill: rgba(17, 0, 255, 0.633);
    }
 
 .delicious_content .row .row:nth-child(1) .item:nth-child(3) .coeur svg{
-    fill: rgba(255, 0, 0, 0.633);
+    fill: rgba(0, 47, 255, 0.336);
    }
 
 
@@ -1689,7 +1691,7 @@ footer .licence {
 
 .industry_left .industry_bloc {
     /* background-color: #0091ff; */
-    height: 20vh;
+    height: 30vh;
     margin: 20px 0;
 }
 
@@ -1708,7 +1710,7 @@ footer .licence {
   text-align: left;
   -webkit-line-clamp: 2; 
   overflow: hidden;
-  margin: 50px 0;
+  margin: 30px 0;
 }
 
 
@@ -1727,20 +1729,20 @@ footer .licence {
 }
 
 .industry_left .industry_left_bg {
-    height: 50vh;
+    height:50vh;
     width: 100%;
     background: url(image/image\ 44.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 
 .industry_bande {
     background: linear-gradient(to left ,white,rgba(250, 235, 215, 0.253));
-    padding: 40px;
-    margin-bottom: 50px;
+    padding:20px;
+    margin-bottom: 10px;
     
 }
 .industry_bande h1 {
@@ -1757,7 +1759,7 @@ footer .licence {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
 }
 
 .industry_right p {
@@ -2020,7 +2022,7 @@ footer .licence {
      display: flex;
      flex-direction: column;
      justify-content: space-between;
-     padding: 25px 20px;
+     padding: 30px 20px;
 }
 
 
@@ -2471,10 +2473,10 @@ color: var(--p-color);
 
 
 .bloc_article_left {
-    width:30%;
+    width:45%;
     height: 20vh;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 10px;
     background-size: cover;
     background-position: center;
 
@@ -3433,7 +3435,7 @@ overflow: hidden
         width: 4%;
      }
      .burguer:active {
-        fill: #1D483B;
+        fill: #1d4821;
      }
 
      .reseaux {
@@ -3451,7 +3453,7 @@ overflow: hidden
         justify-content: center;
         align-items: center;
         position: absolute;
-        background-color: #0091ff;
+        background-color: #4400ff67;
         top: 100%;
         left: 0;
         height: 70lvh;
@@ -3464,7 +3466,7 @@ overflow: hidden
     }
 
     nav a:hover {
-        color: #1D483B;
+        color: #1d482b;
     }
 
     nav.active {
@@ -3482,7 +3484,7 @@ overflow: hidden
         padding: 5px;
         width: 50%;
         color: white;
-        background-color: rgba(255, 255, 255, 0.212);
+        background-color: rgba(255, 255, 255, 0);
         border-radius: 10px;
         
      }
@@ -3886,7 +3888,7 @@ overflow: hidden
 
 .formulaire_bloc .view_all {
     padding: 10px 10px;
-    width: 30%;
+    width: 40%;
     font-size: clamp(12px, 5vw, 14px);
 
 }
@@ -3902,13 +3904,13 @@ overflow: hidden
 }
 .inbox .d_image_right {
   
-    bottom: -10%;
+    bottom: -20%;
     right: 0;
 }
 
 .inbox .percile {
     top: 5%;
-    right:35%;
+    right:30%;
     width: clamp(10% ,2vw,80%)
 
 }
@@ -4035,7 +4037,7 @@ footer .licence {
 
 .guide_texte .guide_profil{
    
-    gap: 50px;
+    gap: 30px;
     
 }
 
@@ -4269,7 +4271,7 @@ footer .licence {
 .recipe_header_icon_item {
    /* background-color: #2da150; */
   
-   width: 40px;
+   width: 50px;
    
 
 }
@@ -4336,16 +4338,16 @@ footer .licence {
 
 
 .recipe_header_middle .header_middle_right {
-    width: 38%;
+    width: 35%;
     
     padding: 20px 15px;
 }
 
 
 .header_middle_right h1 {
-   font-size: 18px;
+   font-size: 13px;
   
-   margin-bottom: 15px;
+   margin-bottom: 20px;
   
    
 }
@@ -4947,8 +4949,8 @@ overflow: hidden
     .left_slide .top {
         margin: 0 auto;
         color: rgb(0, 0, 0);
-        margin-bottom: 20px;
-        margin-top: 10px;
+        margin-bottom: 50px;
+        margin-top: 20px;
     }
 
  .left_slide .content {
@@ -5493,7 +5495,7 @@ overflow: hidden
 
 
 .inbox {
-    height: 45vh;
+    height: 55vh;
     overflow: hidden;
     margin-top: 50px;
 }
@@ -5509,7 +5511,7 @@ overflow: hidden
 }
 
 .inbox .formulaire {
-    margin: 20px 0;
+    margin: 10px 0;
     
 }
 
@@ -5573,8 +5575,8 @@ overflow: hidden
 footer {
     background: linear-gradient(to bottom ,white,rgba(250, 235, 215, 0.444));
     height: auto;
-    margin-top: 50px;
-    padding: 2% 3%;
+    margin-top: 60px;
+    padding: 3% 0;
 }
 
 
@@ -5593,7 +5595,7 @@ footer .logo {
 
 .footer_link .link_right ul {
    
-    gap: 20px;
+    gap: 10px;
   
 }
 .link_right a {
@@ -5718,14 +5720,14 @@ footer .licence {
 
 
 .industry {
-    padding: 3% 3%;
+    padding: 3% 0%;
     position: relative;
 
 
 }
 
 .industry_left {
- flex-basis: 95%;
+ flex-basis: 85%;
  padding-left: 20px;
   
 }
@@ -5734,7 +5736,7 @@ footer .licence {
 
 .industry_left .industry_bloc {
     /* height: 20vh; */
-    margin: 0px ;
+    margin:20px ;
 }
 
 .industry_left .industry_bloc h1 {
@@ -5755,14 +5757,14 @@ footer .licence {
 
 .industry_left_cook h1 {
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     
 }
 
 
 .industry_left .industry_left_bg {
-    height: 25vh;
-    width: 100%;
+    height: 20vh;
+    width: 80%;
     
 }
 
@@ -5770,7 +5772,7 @@ footer .licence {
 .industry_right {
  
   display: none;
-  height: 20vh;
+  height: 10vh;
   
 }
 
@@ -5778,12 +5780,12 @@ footer .licence {
 
 .industry_bande {
   
-    padding: 30px;
-    margin-bottom: 40px;
+    padding: 50px;
+    margin-bottom: 10px;
     
 }
 .industry_bande h1 {
-  font-size: 16px;
+  font-size: 13px;
   display: -webkit-box;
 -webkit-box-orient: vertical;
 -webkit-line-clamp: 3; 
@@ -5806,18 +5808,22 @@ overflow: hidden
 
 .recipe_header {
 
-    gap: 30px;
-    
+    gap: 10px;
+    top: 0;
 
 }
 
+
+.section_recipe_header{
+    margin-top:40px;
+}
 
 /* recipe header left */
 
 
 
 .recipe_header_left h1 {
-    font-size:25px;
+    font-size:20px;
     text-align: center;
    
 }
@@ -5884,7 +5890,7 @@ overflow: hidden
 
 .recipe_header_right {
    
-    gap: 10px;
+    gap: 5px;
     /* background-color: #0091ff; */
 
 }
@@ -5893,7 +5899,7 @@ overflow: hidden
 .recipe_header_icon_item {
    /* background-color: #2da150; */
   
-   width: 30px;
+   width: 20px;
    
 
 }
@@ -5907,8 +5913,8 @@ overflow: hidden
 
 .recipe_header_right .recipe_header_icon {
     border-radius: 50%;
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 5px;
+    margin-bottom:5px;
 }
 
 .recipe_header_icon svg {
@@ -5922,12 +5928,12 @@ overflow: hidden
 /* recipe _header middle */
 
 .section_recipe_header {
-    gap: 30px;
+    gap: 20px;
 }
 
 .recipe_header_middle {
   
-    height: 30vh;
+    height: 45vh;
 
 }
 
@@ -5960,7 +5966,7 @@ overflow: hidden
 .recipe_header_middle .header_middle_right {
     width: 48%;
     border-radius: 20px;
-    padding: 15px 12px;
+    padding: 20px 15px;
 }
 
 
@@ -5975,7 +5981,7 @@ overflow: hidden
 .header_middle_right ul{
 
   padding: 0;
-  gap: 2px;
+  gap: 5px;
 
 
 
@@ -5992,17 +5998,17 @@ overflow: hidden
 
 
 .header_middle_right ul li span {
-  font-size: 10px;
+  font-size: 8px;
  
 }
 
 .header_middle_right ul li p {
-  font-size: 10px; 
+  font-size: 8px; 
  
 }
 
 .header_middle_right_bottom p  {
-  font-size: 10px;
+  font-size: 8px;
  
 }
 
@@ -6028,7 +6034,7 @@ overflow: hidden
 
 
 .ingredient_left {
-    width: 100%;
+    width: 90%;
 }
 
 
@@ -6231,8 +6237,8 @@ overflow: hidden
 
 
 .contact {
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top:40px;
+    margin-bottom: 5px;
 }
 
 
@@ -6244,7 +6250,7 @@ overflow: hidden
 
 .contact_texte h1 {
     font-size: 30px;
-    font-weight: 800;
+    font-weight:800;
      margin-bottom: 50px;
 }
 
@@ -6253,7 +6259,7 @@ overflow: hidden
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
     justify-content: space-between;
 }
 
@@ -6263,11 +6269,11 @@ overflow: hidden
   /* background-size: cover; */
   /* background-position: center; */
   width: 100% ;
-  height: 30vh;
+  height:80vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding:0 40px;
+  padding:0 30px;
   /* overflow: hidden; */
   
 
@@ -6337,7 +6343,7 @@ overflow: hidden
 
 .article_titre {
     margin-top: 0;
-    padding-top: 100px;
+    padding-top: 90px;
 
     background:linear-gradient(to top ,rgb(255, 255, 255),var(--blue));
    
@@ -6404,10 +6410,10 @@ overflow: hidden
 }
 
 .bloc_article_item {
-    display: flex;
+    display: table-column;
     align-items: center;
-    gap: 20px;
-    padding: 20px 0 ;
+    gap: 10px;
+    padding: 15px 0 ;
     /* background-color: red; */
     border-bottom: 1px solid var(--border);
    
@@ -6420,9 +6426,9 @@ overflow: hidden
 
 
 .bloc_article_left {
-    align-self: self-start;
-    width:100%;
-    height: 15vh;
+    
+    width:95%;
+    height: 30vh;
     overflow: hidden;
     border-radius: 20px;
     background-size: cover;
